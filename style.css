@@ -1,0 +1,125 @@
+body {
+  padding: 0px 0px 0px 0px;
+  margin: 0%;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 45px;
+  margin: 0px;
+  padding: 0px;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  text-align: left;
+  padding: 0% 0%;
+}
+.font-highlight {
+  color: tomato;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  padding-left: 2%;
+  margin-left: 5%;
+  padding-right: 3%;
+  padding-top: 0%;
+}
+.half-width img {
+  height: 400px;
+  width: 400px;
+}
+.top {
+  margin: 20px;
+}
+section {
+  padding: 0px 10px;
+  height: 450px;
+  width: 100%;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, darksalmon, tomato);
+  border-radius: 4px;
+  padding: 6px 20px;
+  font-weight: 700;
+  color: white;
+}
+.column {
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  margin-left: 100px;
+  border: silver;
+  background-color: rgb(253, 253, 252);
+  border-radius: 20px;
+}
+.row::after {
+  margin-left: 8%;
+  content: "";
+  clear: both;
+  display: table;
+}
+#text-align {
+  text-align: center;
+  margin: 20px;
+  padding-top: 40px;
+}
+#background {
+  width: 102%;
+  height: 700px;
+  margin: 0%;
+  padding: 0px;
+  background-color: rgb(240, 238, 238);
+}
+#background img {
+  height: 300px;
+}
+.column img {
+  height: -20px;
+  width: 500px;
+  border: floralwhite;
+  border-radius: inherit;
+}
+.bottom-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 1000px;
+  margin-top: 150px;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+.container .link-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.background {
+  background-repeat: no-repeat;
+  background-image: url("images/Group_33094_1.png");
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: contain;
+}
+.front {
+  float: inline-start;
+  margin-left: 800px;
+}
